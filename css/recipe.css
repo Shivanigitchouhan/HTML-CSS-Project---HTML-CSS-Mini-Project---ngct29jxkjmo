@@ -1,0 +1,98 @@
+body {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.navContent {
+    display: flex;
+}
+
+#simplyLogo {
+    color: #8500FE;
+    font-weight: bold;
+}
+
+#recipesLogo {
+    font-weight: bold;
+}
+
+.logo {
+    text-shadow: 0px 4px 7px #757373;
+    font-size: 30px;
+}
+
+.itemList {
+    font-size: large;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.contactBtn {
+    background-color: #8500FE;
+    color: #ffffff;
+    width: 100px;
+}
+
+.recipeList {
+    margin-right: 100px;
+    width: 150px;
+    height: fit-content;
+}
+
+.recipeList h4 {
+    font-weight: 700;
+    font-size: 3vh;
+}
+
+.recipeList p {
+    font-size: 2vh;
+    line-height: 20px;
+}
+
+.recipeImages {
+    margin-top: 30px;
+
+}
+
+.card {
+    width: 320px;
+    display: flex;
+    border: none;
+}
+
+.card img {
+    margin: 20px;
+    height: 200px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+.footer p {
+    font-size: 2vh;
+}
+
+.footerP {
+    color: #8500FE;
+}

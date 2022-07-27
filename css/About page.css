@@ -1,0 +1,113 @@
+body{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+.header{
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.navContent{
+    display: flex;
+}
+
+#simplyLogo{
+    color: #8500FE;
+    font-weight: bold;
+}
+#recipesLogo{
+    font-weight: bold;
+}
+
+.logo{
+    text-shadow: 0px 4px 7px #757373;
+    font-size: 30px;
+}
+
+.itemList{
+   font-size: large;
+   font-weight: 500; 
+   margin-left: 30px;
+}
+
+.contactBtn{
+    background-color: #8500FE;
+    color: #ffffff;
+    width: 100px;
+}
+
+.coloumn{
+    margin-top: 40px;
+    display: flex;
+}
+
+.Text{
+    margin: 30px;
+    width: 1000px;
+}
+
+#title{
+    font-size: 4vh;
+    font-weight: bolder;
+}
+
+.loremText{
+    font-weight: 600;
+    font-size: large;
+}
+
+.saltyImage img{
+   width: 100%;
+   height: auto;
+   border-radius: 7px; 
+}
+
+.middleText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    font-size: 4vh;
+    font-weight: 600;
+}
+
+.recipeImages{
+    margin-top: 30px;
+
+}
+
+.card{
+    width: 44vh;
+    display: flex;
+    border: none;
+
+}
+
+.card img{
+    margin: 20px;
+    height: 200px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+.footer p{
+  font-size: 2vh;
+}
+
+.footerP{
+    color: #8500FE;
+}

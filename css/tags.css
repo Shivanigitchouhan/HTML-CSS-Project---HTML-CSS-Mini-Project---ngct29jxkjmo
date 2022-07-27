@@ -1,0 +1,93 @@
+body {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.navContent {
+    display: flex;
+}
+
+#simplyLogo {
+    color: #8500FE;
+    font-weight: bold;
+}
+
+#recipesLogo {
+    font-weight: bold;
+}
+
+.logo {
+    text-shadow: 0px 4px 7px #757373;
+    font-size: 30px;
+}
+
+.itemList {
+    font-size: large;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.contactBtn {
+    background-color: #8500FE;
+    color: #ffffff;
+    width: 100px;
+}
+
+.foodList {
+    padding: 80px;
+}
+
+.foodItem {
+font-weight: bold;
+font-size: 2.5vh;
+}
+
+.col {
+    background-color: #627088;
+    margin: 10px;
+    width: 31.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+    color: #ffffff;
+    border-radius: 7px;
+
+}
+.numRec{
+    font-size: 2vh;
+
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+.footer p{
+  font-size: 2vh;
+}
+
+.footerP{
+    color: #8500FE;
+}
