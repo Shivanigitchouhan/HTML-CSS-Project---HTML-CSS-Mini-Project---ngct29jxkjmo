@@ -4,7 +4,7 @@ body {
     background-color: #ffffff;
 }
 
-.header {
+.recipe_header {
     background-color: #ffffff;
     width: 100%;
     height: auto;
@@ -12,7 +12,7 @@ body {
     margin-top: 10px;
 }
 
-.navContent {
+.recipe_navContent {
     display: flex;
 }
 
@@ -25,12 +25,35 @@ body {
     font-weight: bold;
 }
 
-.logo {
+.simplyLogo {
     text-shadow: 0px 4px 7px #757373;
     font-size: 30px;
 }
 
-.itemList {
+.recipeLogo {
+    text-shadow: 0px 4px 7px #757373;
+    font-size: 30px;
+}
+
+.recipe_home {
+    font-size: large;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.recipe_about {
+    font-size: large;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.recipe_tag {
+    font-size: large;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.recipe_recipe {
     font-size: large;
     font-weight: 500;
     margin-left: 30px;
@@ -93,6 +116,10 @@ footer {
     font-size: 2vh;
 }
 
-.footerP {
+.recipe_footerText1 {
+    color: #8500FE;
+}
+
+.recipe_footerText2 {
     color: #8500FE;
 }
