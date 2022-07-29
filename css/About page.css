@@ -3,7 +3,7 @@ body{
     height: auto;
     background-color: #ffffff;
 }
-.header{
+.about_header{
     background-color: #ffffff;
     width: 100%;
     height: auto;
@@ -11,7 +11,7 @@ body{
     margin-top: 10px;
 }
 
-.navContent{
+.about_navContent{
     display: flex;
 }
 
@@ -23,16 +23,40 @@ body{
     font-weight: bold;
 }
 
-.logo{
+.simplyLogo{
     text-shadow: 0px 4px 7px #757373;
     font-size: 30px;
 }
 
-.itemList{
+.recipeLogo{
+    text-shadow: 0px 4px 7px #757373;
+    font-size: 30px;
+}
+
+.homePage{
    font-size: large;
    font-weight: 500; 
    margin-left: 30px;
 }
+
+.aboutPage{
+    font-size: large;
+    font-weight: 500; 
+    margin-left: 30px;
+ }
+
+ .tagPage{
+    font-size: large;
+    font-weight: 500; 
+    margin-left: 30px;
+ }
+
+ .recipePage{
+    font-size: large;
+    font-weight: 500; 
+    margin-left: 30px;
+ }
+ 
 
 .contactBtn{
     background-color: #8500FE;
@@ -40,7 +64,7 @@ body{
     width: 100px;
 }
 
-.coloumn{
+.description{
     margin-top: 40px;
     display: flex;
 }
@@ -55,7 +79,12 @@ body{
     font-weight: bolder;
 }
 
-.loremText{
+.loremText1{
+    font-weight: 600;
+    font-size: large;
+}
+
+.loremText2{
     font-weight: 600;
     font-size: large;
 }
@@ -108,6 +137,10 @@ footer{
   font-size: 2vh;
 }
 
-.footerP{
+.footerText1 {
+    color: #8500FE;
+}
+
+.footerText2 {
     color: #8500FE;
 }
